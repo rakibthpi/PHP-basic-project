@@ -16,11 +16,6 @@ ul,li,a{
 	text-decoration: none;
 	list-style: none;
 }
-.container{
-	max-width: 1240px;
-	width: 100%;
-	margin: auto;
-}
 /* ================ Defolt Area End  ================ */
 
 /* ================ Header Area Start  ================ */
@@ -99,3 +94,19 @@ ul,li,a{
 	text-align: center;
 	font-weight: 700;
 }
+/* ============================================== */
+/* =========== Contact Page Area Start ========= */
+/* ============================================ */
+
+.contact_form_area{
+	background-color: skyblue;
+	padding: 50px 0;
+}
+.btn {
+	padding: .375rem 1.75rem;
+	font-weight: 700;
+}
+
+/* ============================================== */
+/* =========== Contact Page Area Start ========= */
+/* ============================================ */

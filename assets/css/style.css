@@ -1,0 +1,62 @@
+html{
+  font-size: 62.5%;
+  /*line-height: 1.5;*/
+  /*#6fda44*/
+  /*#008329*/
+
+}
+body{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  position: relative;
+}
+ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+/*      5. Header area css start       */
+
+.form_area {
+  padding: 40px 0;
+  text-align: right;
+}
+.input_single_item input {
+  font-size: 17px;
+  height: 41px;
+}
+.input_single_item [type="submit"] {
+  border: 1px solid gray;
+  background-color: #fff;
+  max-width: 140px;
+  width: 100%;
+  background-color: #0d6efd;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: .4s;
+}
+.input_single_item [type="button"], [type="reset"], [type="submit"]:hover{
+  color:#0d6efd;
+  background-color: #fff;
+  border: 1px solid #0d6efd;
+}
+.form_mark_area label{
+  font-size: 16px;
+  padding-top: 10px;
+}
+.form_mark_area .form-control {
+  height: 45px;
+  font-size: 16px;
+}
+
+/*      5. Header area css start       */
