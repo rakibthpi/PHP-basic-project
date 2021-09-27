@@ -2,20 +2,23 @@
 
 <div class="contact_form_area">
 	<div class="container">
-		<?php if (isset($_GET['error'])): ?>
-			<div class="alert alert-danger ">
-				<?php echo 'Fils is Required!!' ?>
-			</div>
-		<?php endif ?>
-		 <!-- Error message area  -->
-        <?php if(isset($_GET['success'])): ?>
-            <div class="alert alert-success">
-                <?php echo 'Fils is Success'; ?>
-            </div>
-        <?php endif; ?>
+		
 
 		<form action="form-contact.php" method="POST">
 		<div class="row g-4">
+			<div class="offset-md-3 col-md-6">
+				<?php if (isset($_GET['error'])): ?>
+					<div class="alert alert-danger ">
+						<?php echo 'Fils is Required!!' ?>
+					</div>
+				<?php endif ?>
+				 <!-- Error message area  -->
+		        <?php if(isset($_GET['success'])): ?>
+		            <div class="alert alert-success">
+		                <?php echo 'Fils is Success'; ?>
+		            </div>
+		        <?php endif; ?>
+			</div>
 			<div class="offset-md-3 col-md-6">
 				<label for="name">Name</label>
 				<input class="form-control" type="text" name="st_name" placeholder="Name" id="name">
